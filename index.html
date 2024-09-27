@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--==================== FAVICON ====================-->
+    <link rel="icon" href="assets/img/Logo_ecobeauty.PNG" />
+    <!--========== BOX ICONS LIBRARY ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--========== Title ==========-->
+    <title>EcoBeauty</title>
+
+    <!--================== LINK THUMBNAIL META TAGS ===================-->
+
+    <!-- MS Tile - for Microsoft apps-->
+    <meta
+      name="msapplication-TileImage"
+      content=""
+    />
+    <!-- fb & Whatsapp -->
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Tutoriales belleza | EcoBeauty" />
+    <meta
+      property="og:description"
+      content="Una forma fácil de administrar los pedidos!"
+    />
+    <!-- IMG URL: -->
+    <meta
+      property="og:image"
+      content=""
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+
+
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            EcoBeauty
+          </b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Servicios</a>
+            </li>
+            <li class="nav_item">
+              <a href="#ad" class="nav_link">Equipo</a>
+            </li>
+            <li class="nav_item">
+              <a href="#video" class="nav_link">Reseñas</a>
+            </li>
+            <li class="nav_item">
+              <a href="#app" class="nav_link">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contáctenos</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Aprende y crea tus propios productos de cosmética natural</h1>
+            <h2 class="home_subtitle">En casa 🏠 </h2>
+            <a href="#app" class="button">Registrate</a>
+          </div>
+
+          <img
+            src="assets/img/imagen_ecobeauty.png"
+            alt="Gestion logística"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">Servicios</span>
+            <h2 class="section-title about_initial">
+              Encuentre la mejor forma de crear sus cosmeticos naturales!
+            </h2>
+            <p class="about_description">
+              Crea tus propios productos de belleza y cuidado personal con ingredientes naturales y orgánicos.
+              EcoBeauty te brinda la oportunidad de aprender a crear tus propios productos de belleza y cuidado personal
+              con ingredientes naturales y orgánicos. 🌿
+            </p>
+            <a href="#app" class="button">Te animas? Úsalo ahora!</a>
+          </div>
+
+          <img
+            src="assets/img/servicio_ecobeauty.png"
+            alt="Envasado de Lubricantes"
+            class="about_img"
+          />
+        </div>
+      </section>
+
+      <!--========== TEAMMATES ==========-->
+      <section class="ad section bd-container" id="ad">
+        <span class="section-subtitle">Equipo</span>
+        <h2 class="section-title">Nuestro Equipo de Desarrollo</h2>
+      
+        <div class="ad_container bd-grid">
+          <div class="ad_content equipo">
+            <img src="assets/img/Aldo.jpg" alt="" class="foods_img" />
+            <h3 class="ad_name">Aldo Baldeon</h3>
+      
+      
+            </a>
+          </div>
+      
+          <div class="ad_content equipo">
+            <img src="assets/img/Joaquin_foto.PNG" alt="" class="foods_img" />
+            <h3 class="ad_name">Joaquin Rivadeneyra</h3>
+      
+      
+            </a>
+          </div>
+      
+          <div class="ad_content equipo">
+            <img src="assets/img/Paolo_foto.PNG" alt="" class="foods_img" />
+            <h3 class="ad_name">Paolo Martinez</h3>
+      
+      
+            </a>
+          </div>
+      
+          <div class="ad_content equipo">
+            <img src="assets/img/Lorenzo_foto.PNG" alt="" class="foods_img" />
+            <h3 class="ad_name">Lorenzo  Navarro</h3>
+      
+      
+            </a>
+          </div>
+
+          <div class="ad_content equipo">
+            <img src="assets/img/Sebastian_foto.PNG" alt="" class="foods_img" />
+            <h3 class="ad_name">Sebastian  Castro</h3>
+      
+      
+            </a>
+          </div>
+      
+        </div>
+      </section>
+
+      <!--========== VIDEO ==========-->
+
+      <section class="video section bd-container" id="video">
+        <span class="section-subtitle">Reseñas</span>
+        <h2 class="section-title">Lo que nuestros usuarios dicen de nosotros !!</h2>
+        <div class="reviews-slider">
+          <div class="container">
+            <div class="card-wrapper">
+              <div class="card">
+                <div class="head">
+                  <img src="https://i.pinimg.com/564x/cb/5d/64/cb5d64be736ab84602ee1bcd20303d4e.jpg" alt="">
+                  <div class="profile">
+                    <h3>Carlos Lopez</h3>
+                    <p>Usuario desde 15/05/2024</p>
+                  </div>
+                </div>
+                <p class="review" align="justify">
+                  “Esta plataforma me ha cambiado la vida. Siempre quise aprender a hacer mis propios productos de belleza, pero no
+                  sabía por dónde empezar. Los tutoriales son muy detallados y fáciles de seguir, y he podido crear cosméticos
+                  completamente naturales y personalizados. ¡Es una excelente forma de ahorrar y cuidar mi piel al mismo tiempo!”
+                </p>
+                <div class="ratings">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+              </div>
+      
+              <div class="card">
+                <div class="head">
+                  <img src="https://i.pinimg.com/564x/74/75/f2/7475f21219dbad49b5e30a5d2041f816.jpg" alt="">
+                  <div class="profile">
+                    <h3>Chris Andrade</h3>
+                    <p>Usuario desde 12/05/2024</p>
+                  </div>
+                </div>
+                <p class="review" align="justify">
+                  "Me encantan los tutoriales sobre cómo hacer cosméticos naturales. Siempre he estado preocupado por los
+                  productos químicos en las cremas comerciales, pero con esta plataforma he aprendido a hacer mis propios
+                  productos de forma segura. ¡Recomiendo a todos los interesados en la belleza natural que lo prueben!"
+                </p>
+                <div class="ratings">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+              </div>
+      
+              <div class="card">
+                <div class="head">
+                  <img src="https://i.pinimg.com/736x/d5/ec/73/d5ec73a8c387e093e05aa82d762c6183.jpg" alt="">
+                  <div class="profile">
+                    <h3>Jahana Perez</h3>
+                    <p>Usuario desde 17/02/2024</p>
+                  </div>
+                </div>
+                <p class="review" align="justify">
+                  "Gracias a esta plataforma, he aprendido a hacer mis propios jabones y cremas. Los videos explican paso a paso el
+                  proceso, y he notado una gran mejora en la calidad de mi piel desde que uso productos naturales hechos por mí
+                  misma. ¡Es increíble!"
+                </p>
+                <div class="ratings">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+              </div>
+      
+              <div class="card">
+                <div class="head">
+                  <img src="https://i.pinimg.com/564x/22/a7/e9/22a7e97c6be7256fc40a9afdff80a4af.jpg" alt="">
+                  <div class="profile">
+                    <h3>Marco Torres</h3>
+                    <p>Usuario desde 11/01/2024</p>
+                  </div>
+                </div>
+                <p class="review" align="justify">
+                  "Estoy impresionado por la calidad de los tutoriales. Los ingredientes son fáciles de conseguir y las recetas
+                  están muy bien explicadas. Ahora puedo hacer mis propios bálsamos y cremas en casa, ¡y estoy pensando en empezar
+                  mi propio negocio de cosméticos artesanales!"
+                </p>
+                <div class="ratings">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+              </div>
+      
+              <div class="card">
+                <div class="head">
+                  <img src="https://i.pinimg.com/564x/e2/3f/44/e23f448ab0ffb09ba53e00318d4fb3ed.jpg" alt="">
+                  <div class="profile">
+                    <h3>Maria Linares</h3>
+                    <p>Usuario desde 09/03/2024</p>
+                  </div>
+                </div>
+                <p class="review" align="justify">
+                  "Esta plataforma me ha permitido desarrollar nuevas habilidades y hacer cosméticos personalizados para mí y mi
+                  familia. Los videos son claros y están muy bien estructurados. Ahora puedo hacer cremas, jabones y exfoliantes
+                  naturales. ¡Súper recomendada!"
+                </p>
+                <div class="ratings">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                </div>
+              </div>
+            </div>
+            <div class="indicator" id="indicators"></div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+          </div>
+        </div>
+      </section>
+      
+
+
+<!--Sección FAQ-->
+<section class="app section bd-container faq" id="app">
+  <span class="section-subtitle">Preguntas frecuentes</span>
+        <h2 class="section-title">Preguntas más comunes</h2>
+
+  <div class="faq-content">
+    <div class="faq-container">
+      <div class="faq-item">
+        <h3>¿Qué es esta plataforma de tutoriales de cosméticos artesanales?</h3>
+        <p class="answer">Nuestra plataforma te ofrece una amplia variedad de tutoriales para aprender a crear tus propios
+          cosméticos artesanales, desde lociones y cremas hasta jabones y exfoliantes, utilizando ingredientes naturales y sostenibles. Es ideal para quienes buscan productos personalizados y respetuosos con el medio ambiente.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿Cómo puedo acceder a los tutoriales?</h3>
+        <div class="answer">
+          <p> Para acceder a nuestros tutoriales, sigue estos pasos:</p>
+
+          <p> 1. Regístrate o inicia sesión en la plataforma.</p>
+          <p> 2. Dirígete a la sección "Tutoriales".</p>
+          <p> 3. Explora los tutoriales disponibles según el tipo de cosmético que te interesa elaborar.</p>
+          <p> 4. Selecciona un tutorial y sigue las instrucciones detalladas en video o texto para crear tu cosmético artesanal.</p>
+
+        </div>
+      </div>
+
+      <div class="faq-item hidden">
+        <h3>¿Qué materiales necesito para empezar?</h3>
+        <div class="answer">
+          <p> Dependiendo del tipo de cosmético que desees crear, los materiales varían. En cada tutorial se indica una lista detallada de ingredientes y herramientas necesarias. Generalmente necesitarás aceites esenciales, mantecas naturales, y moldes para jabones o cremas, entre otros.</p>
+        </div>
+      </div>
+
+      <div class="faq-item hidden">
+        <h3>¿Puedo vender los cosméticos que aprendo a hacer aquí?</h3>
+        <p class="answer">¡Por supuesto! Nuestros tutoriales están diseñados tanto para uso personal como para emprendedores que quieran iniciar su propio negocio de cosméticos artesanales. Te brindamos las bases para que puedas desarrollar tus productos y empezar a comercializarlos.</p>
+      </div>
+
+      <div class="faq-item hidden">
+        <h3>¿Cómo puedo resolver dudas sobre un tutorial?</h3>
+        <div class="answer">
+          <p> Si tienes dudas durante la elaboración de algún cosmético, puedes hacer lo siguiente: </p>
+
+          <p> 1. Visita la sección de comentarios del tutorial y revisa si otros usuarios ya han planteado tu duda.</p>
+          <p> 2. Si no encuentras una respuesta, puedes dejar tu pregunta y nuestro equipo o la comunidad te responderán lo antes posible.</p>
+          <p> 3. También puedes contactarnos directamente a través de nuestro centro de soporte.</p>
+
+        </div>
+      </div>
+
+      <div class="faq-item hidden">
+        <h3>¿Es necesario tener experiencia previa en la creación de cosméticos?</h3>
+        <p class="answer">No, nuestra plataforma está diseñada tanto para principiantes como para personas con experiencia. Tenemos tutoriales para todos los niveles, desde los más básicos hasta técnicas avanzadas de cosmética artesanal.</p>
+      </div>
+
+      <div class="faq-item hidden">
+        <h3>¿Puedo acceder a los tutoriales sin conexión a internet?</h3>
+        <p class="answer">Actualmente, nuestra plataforma requiere una conexión a internet para acceder a los tutoriales. Sin embargo, estamos trabajando en una opción para descargar los videos y poder verlos sin conexión en el futuro.</p>
+      </div>
+
+      <div class="faq-item hidden">
+        <h3>¿Hay algún costo para acceder a los tutoriales?</h3>
+        <p class="answer">Ofrecemos acceso gratuito a algunos tutoriales básicos. Sin embargo, también contamos con un plan premium que te da acceso a tutoriales exclusivos, materiales descargables, y soporte prioritario.</p>
+      </div>
+
+      <div class="faq-item hidden">
+        <h3>¿Cómo puedo contactar al soporte si tengo problemas?</h3>
+        <div class="answer">
+          <p> Si necesitas ayuda, puedes contactarnos a través de: </p>
+          <p> - Correo electrónico: soporte@cosmeticaartesanal.com</p>
+          <p> - Centro de ayuda: Visita nuestra sección de preguntas y respuestas o tutoriales en <a href="#contact">[enlace al centro de ayuda]</a>.</p>
+        </div>
+      </div>
+
+      <div class="faq-item hidden">
+        <h3>¿Cómo puedo eliminar mi cuenta?</h3>
+        <div class="answer">
+          <p> Si deseas eliminar tu cuenta, sigue estos pasos: </p>
+
+          <p>1. Ve a "Configuración de la cuenta".</p>
+          <p>2. Selecciona "Eliminar cuenta".</p>
+          <p>3. Confirma tu decisión. Ten en cuenta que esta acción es irreversible y todos tus datos serán eliminados permanentemente.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <span class="section-subtitle contact_initial">
+              ¿Conversamos?
+            </span>
+            <h2 class="section-title contact_initial">Contáctenos</h2>
+            <p class="contact_description">
+              Tiene alguna duda??, contáctenos ahora! Estamos online las 24 horas del día, de Lunes a Sábado! 😉
+            </p>
+          </div>
+
+          <div class="contact_button">
+            <a href="#" class="button">Contáctenos</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            EcoBeauty
+          </b>
+
+          <span class="footer_description">El mejor servicio para usted. </span>
+
+          <div>
+            <a href="https://www.instagram.com/" class="footer_social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/" class="footer_social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://twitter.com/?lang=es" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Información</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Eventos</a></li>
+            <li><a href="#" class="footer_link">Política de Privacidad</a></li>
+            <li><a href="#" class="footer_link">Términos de servicio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Dirección</h3>
+          <ul>
+            <li>Avenida La Marina s/n</li>
+            <li>San Miguel</li>
+            <li>Lima, Pérú</li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Navegación</h3>
+          <ul>
+            <li><a href="#app" class="footer_link">Preguntas frecuentes</a></li>
+            <li><a href="#contact" class="footer_link">Contáctenos</a></li>
+            <li><a href="#ad" class="footer_link">Nuestro equipo</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        &#169; Hecho en 2024, por
+        <a
+          href="https://google.com.pe/"
+          class="footer_link"
+          target="_blank"
+        >
+         Grupo EcoBeauty, Fundamentos de Arquitectura de Software
+        </a>
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+
+    <script src="assets/js/add.js"></script>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+  </body>
+</html>
