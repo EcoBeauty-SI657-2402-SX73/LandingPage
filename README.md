@@ -1,6 +1,6 @@
-# Loggy Landing Page
+# EcoBeauty Landing Page
 
-## Loggy - Responsive App Landing Page
+## EcoBeauty - Responsive App Landing Page
 
 - Version 3
 
